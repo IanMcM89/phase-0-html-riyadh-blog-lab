@@ -6,11 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(180deg, seagreen, rgb(255 255 255 / 85%));
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-family: 'Courier New', Courier;
+  color: rgb(23, 102, 53);
+  font-size: 120%;
 }
 
 .wrapper {
@@ -25,7 +26,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Courier New', Courier;
   color: #fff;
 }
 
@@ -40,7 +41,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Courier New', Courier;
   font-size: 1.5em;
   margin-top: .5em;
 }
@@ -56,7 +57,7 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(23, 102, 53);
   text-decoration: none;
 }
 
